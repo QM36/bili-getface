@@ -38,10 +38,15 @@
 	```
 
 ### 使用
+* 浏览器输入`localhost:9000`访问页面（9001会跨域）
 * 只需要输入视频的url中的av号，就可以获取
 * 效果展示
 	![首页](http://ww1.sinaimg.cn/large/006XqmrNly1g7of1cjyg7j31780ggtax.jpg)
 	![封面获取](http://ww1.sinaimg.cn/large/006XqmrNly1g7of26794sj327q1be4qp.jpg)
 * 注：封面url不可直接点击，否则会403，暂时只能粘贴复制在另外的tab页面
 
+### 总结
+* 跨域的代理解决
+* nginx配置
+* nodejs基础
 
