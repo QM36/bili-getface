@@ -20,7 +20,6 @@ http.createServer((proxyReq, proxyRes) => {
 }).listen(8000);
 
 http.createServer((proxyReq, proxyRes) => {
-    console.log(proxyReq);
     viewUrl = viewURL + proxyReq.url;
     https.get(viewUrl, (res) => {
         let result = '';
