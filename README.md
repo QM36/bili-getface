@@ -27,6 +27,25 @@
         proxy_pass http://localhost:8001;
     }
 	```
+* 补充一些以上步骤可能会用到的命令相关命令
+    * 修改配置文件
+    ```
+    cd /usr/local/etc/nginx
+    vim nginx.conf
+    ```
+    * 查看看端口占用情况
+    ```
+    sudo lsof -i :9000（端口号）
+    ```
+    * 重启`nginx`
+    ```
+    nginx -s reload
+    ```
+    * 关闭`nginx`
+    ```
+    nginx -s stop
+    ```
+
 
 * http-server实现静态web页面服务
 	```
