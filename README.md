@@ -27,7 +27,7 @@
         proxy_pass http://localhost:8001;
     }
 	```
-* 补充一些以上步骤可能会用到的命令相关命令
+* 补充一些以上步骤可能会用到的相关命令
     * 修改配置文件
     ```
     cd /usr/local/etc/nginx
